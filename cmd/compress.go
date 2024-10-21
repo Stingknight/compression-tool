@@ -26,6 +26,7 @@ var compressCmd = &cobra.Command{
 		filename, _ := cmd.Flags().GetString("filename")
 		if filename == "" {
 			fmt.Println("provide a name of the file")
+			return
 		}
 
 		if err := Compress(filename); err != nil {
