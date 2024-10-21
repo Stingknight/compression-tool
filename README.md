@@ -37,7 +37,7 @@ Usage
 
 Example:
 
-    go run main.go --foldername input
+        go run main.go --foldername input
 
 2. Decompress a File
 
@@ -52,4 +52,4 @@ Example:
 
 Example:
 
-    go run main.go --foldername input
+        go run main.go --foldername input
